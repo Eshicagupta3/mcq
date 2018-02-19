@@ -85,6 +85,18 @@ input[type="radio"]{
   height: 25px;
   background-color: transparent;
 }
+div#divCounter {
+    float: left;
+    background-color: transparent;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 6px;
+}
+
+
 button#submit_ans{
   background-color: transparent;
   padding: 1rem 2rem;
@@ -104,8 +116,8 @@ button#submit_ans:hover,button#submit_ans:focus{
   border: 2px solid  #D50000;
 }
 button.next{
-  margin-top: -11.5rem;
-  margin-right: 50rem;
+  margin-top: -1.5rem;
+  float: right;
 }
 p#response {
   margin-top: -1.5rem;
@@ -118,7 +130,16 @@ div#show_ans {
   color: black;
   padding: 1rem 1rem;
 }
-
+input#submit_test {
+    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid whitesmoke;
+}
 </style>
 </head>
 
@@ -132,7 +153,7 @@ div#show_ans {
       <ul class="nav navbar-nav nav-flex-icons ml-auto">
         <li class="nav-item">
           <form name="signout" action="signout.php">
-            <input type="submit" value="Submit Test">
+            <input type="submit" id="submit_test" value="Submit Test">
           </form>                    
         </li>
       </ul>
@@ -239,7 +260,7 @@ div#show_ans {
        }
        ?></form><br>
        <form action="" method="post">
-        <button onclick="submitEvent()" style="float: right;" class="next"><i class="glyphicon glyphicon-chevron-right">next</i></button>
+        <button onclick="submitEvent()" style="float: right;" class="next"><i class="glyphicon glyphicon-chevron-right">Next</i></button>
       </form>
 
     </div>

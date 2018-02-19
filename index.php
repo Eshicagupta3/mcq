@@ -52,7 +52,7 @@ header('location: instructions.php');
         <div class="col-lg-2 col-md-2"></div>
         <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
            <div class="jumbotron">        
-              <h1 class="h1-responsive" align="center">QUIZICON</h1>
+              <h1 class="h1-responsive" align="center">MCQ TEST</h1>
               <hr>
               <div class="button-group">
                 <a href="login.php"><button type="button" class="btn btn-grey">Log In</button></a>

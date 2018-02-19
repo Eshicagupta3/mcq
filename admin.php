@@ -15,6 +15,20 @@ header('location: addques.php');
     <link href="assets/css/mdb.min.css" rel="stylesheet">
     <link href="assets/css/animate.css" rel="stylesheet">
     <link href="assets/css/admin.css" rel="stylesheet">
+    <style type="text/css">
+      input#admin_panel{
+         width: 50%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: #b71c1c;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    outline: none;
+      }
+    </style>
 </head>
 <body class="fixed-sn animated fadeIn">
 
@@ -56,7 +70,7 @@ header('location: addques.php');
                      <input type="password" id="defaultForm-pass" class="form-control" placeholder="Password" name="apass" required>
                   </div>
                   <div class="text-center">
-                    <input type="submit" name="admin">
+                    <input type="submit" id="admin_panel" name="admin">
                   </div>
                </form>
            </div>

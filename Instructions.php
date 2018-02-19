@@ -28,7 +28,7 @@ header('location: signup.php');
           background-color: #424242;
           border: none;
           color: white;
-          text-decoration: none;
+          padding: 0.5rem;
        }
     </style>
 </head>
@@ -60,7 +60,7 @@ header('location: signup.php');
                   <li>Society holds the power of disqualifying any individual in case of any unethical activity.</li>
               </ul>
              
-              <button type="button" class="start"><a href="question1.php"?>Start the test</button>
+              <button type="button" class="start"><a href="question1.php"? style="text-decoration: none;color: white;">Start the test</button>
            </div>
         </div>
       </div>
